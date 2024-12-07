@@ -1,0 +1,20 @@
+{
+  "apikey": "RCMza9LfNEa8KxJClfCBLXOy6b5Aak5R",
+  "port": 8081,
+  "cors": {
+    "origin": "http://localhost:3000",
+    "credentials": true
+  },
+  "mongodb": {
+    "uri": "mongodb://l1dctdtlabdvws6.service02.corp:57017",
+    "db": "stocks"
+  },
+  "searchLimit": 10,
+  "log": {
+    "path": "/var/log/stocks/",
+    "level": "info",
+    "maxFiles": 10,
+    "maxFileSize": 10000000,
+    "console": false
+  }
+}
